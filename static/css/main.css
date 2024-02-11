@@ -1,7 +1,7 @@
 @import "https://fonts.googleapis.com/css?family=Dancing Script";
 @import "https://fonts.googleapis.com/css?family=Josefin Sans";
 
-h1 {font-family: "Dancing Script"}
+h1,h3 {font-family: "Dancing Script"}
 body, html {
   height: 100%;
 }
@@ -20,14 +20,14 @@ p {line-height: 2}
 }
 @media screen and (max-width: 950px) {
   .bgimg {
-    background-image: url("/static/images/cute_look.jpg");
+    background-image: url("/static/images/DSC_9551.jpg");
     opacity: .75;
   }
 }
 
 @media screen and (min-width: 951px) {
   .bgimg {
-    background-image: url("/static/images/donner-dip.jpg");
+    background-image: url("/static/images/IMG_8401.jpg");
     opacity: .75;
   }
 
@@ -37,18 +37,20 @@ p {line-height: 2}
 }
 
 
-.bgimg2 {background-image: url("/static/images/DSC_8162.jpg")}
+.bgimg2 {background-image: url("/static/images/IMG_8401.jpg")}
 
 .w3-row {
   font-family: "Josefin Sans" !important;
 }
 
 .bg-sage {
-  background-color: #B1BCA0 !important;
+  background-color: #e9cdf7!important;
+  //color: #c2ab17 !important;
 }
 
 .bg-smoky-green {
-  background-color: #D0D9CD !important;
+  background-color: #e9cdf7 !important;
+  //color: #c2ab17 !important;
 }
 
 .standard-text {
