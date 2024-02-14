@@ -24,6 +24,11 @@ p {line-height: 2}
     opacity: .75;
   }
   
+  .bgimg_steal {
+  //  background-image: url("/static/images/m&a_rotate.png") !important;
+    // transform: rotate(90deg);
+  }
+  
   .name-text {
      font-size: 30px !important;
     }
@@ -71,9 +76,13 @@ p {line-height: 2}
 }
 .bgimg_steal {
   //background-image: url("https://uploads-ssl.webflow.com/6332140d3680eb3ceaea84db/647ab2400d93f4f46021f40c_top-2.svg");
-  background-image: url("/static/images/blue-white-gld.jpg");
+ background-image: url("/static/images/m&aweddingday.png");
+ //background-image: url("/static/images/varient5background.png");
+
   background-position: center;
-  background-size: cover;
+  background-size: contain;
+  min-height: 100%;
+  max-width: 100%;
 }
 
 .bg-sage {
@@ -85,6 +94,7 @@ p {line-height: 2}
 .bg-purple {
   background-color: #debcef !important;
   border-radius: 25px !important;
+  opacity: .95;
   min-width: 33% !important;
   width:33%;
   display: static;
@@ -135,7 +145,8 @@ p {line-height: 2}
 }
 
 .hr-line {
-  border-top-color: black !important;
+  border-top-color: aqua !important;
+  border-width: 3px !important;
   width: 50% !important;
   margin: auto;
 }
