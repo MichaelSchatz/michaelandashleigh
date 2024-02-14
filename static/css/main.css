@@ -69,19 +69,30 @@ p {line-height: 2}
 .w3-row {
   font-family: "Josefin Sans" !important;
 }
+.bgimg_steal {
+  //background-image: url("https://uploads-ssl.webflow.com/6332140d3680eb3ceaea84db/647ab2400d93f4f46021f40c_top-2.svg");
+  background-image: url("/static/images/blue-white-gld.jpg");
+  background-position: center;
+  background-size: cover;
+}
 
 .bg-sage {
-  background-color: #128ae1 !important;
+  //background-color: #128ae1 !important;
   color: #000 !important;  #e9cdf7
 }
 
 
 .bg-purple {
-  background-color: #e9cdf7 !important;
+  background-color: #debcef !important;
   border-radius: 25px !important;
   min-width: 33% !important;
   width:33%;
   display: static;
+}
+
+.bg-gold {
+  background-color: gold !important;
+  border-radius: 25px !important;
 }
 
 .bg-smoky-green {
