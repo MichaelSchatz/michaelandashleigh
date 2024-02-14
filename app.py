@@ -71,6 +71,11 @@ def thingstodo():
 def faq():
     return render_template("faq.html")
 
+
+@app.route("/ourstory")
+def ourstory():
+    return render_template("ourstory.html")
+
 @app.route("/registry")
 def registry():
     return render_template("registry.html")
