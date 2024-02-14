@@ -71,13 +71,17 @@ p {line-height: 2}
 }
 
 .bg-sage {
-  background-color: #12e1dd !important;
-  //color: #c2ab17 !important;  #e9cdf7
+  background-color: #128ae1 !important;
+  color: #000 !important;  #e9cdf7
 }
+
 
 .bg-purple {
   background-color: #e9cdf7 !important;
-  //color: #c2ab17 !important;  
+  border-radius: 25px !important;
+  min-width: 33% !important;
+  width:33%;
+  display: static;
 }
 
 .bg-smoky-green {
@@ -88,6 +92,9 @@ p {line-height: 2}
 .standard-text {
   padding-left: 15px;
   padding-right: 15px;
+  padding-right: 15% !important;
+  padding-left: 15% !important;
+
   text-align: center;
   font-family: "Josefin Sans" !important;
 }
