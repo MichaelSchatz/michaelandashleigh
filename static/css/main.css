@@ -29,8 +29,14 @@ p {line-height: 2}
     // transform: rotate(90deg);
   }
   .bg-smoky-green {
-      width:95% !important;
+      width:100% !important;
   }
+  
+  .bullet-list {
+      padding-left: 5px !important;
+      padding-right: 5px !important;
+  }
+  
   .name-text {
      font-size: 30px !important;
     }
