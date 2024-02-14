@@ -23,18 +23,45 @@ p {line-height: 2}
     background-image: url("/static/images/DSC_9551.jpg");
     opacity: .75;
   }
+  
+  .name-text {
+     font-size: 30px !important;
+    }
+    
+   .header-text {
+    top: 17% !important;
+    left: 50% !important;
+    padding: 0px 2px 0px 2px !important;
+    }
 }
 
 @media screen and (min-width: 951px) {
   .bgimg {
-    background-image: url("/static/images/IMG_8401.jpg");
+    background-image: url("/static/images/DSC_9417.jpg");
     opacity: .75;
   }
+  
+ // .sideimg {
+   //   background-image: url("/static/images/giphy-downsized.gif");
+    //  bacground-position: right;
+      //width: 25%;
+    //  opacity: .95;
+ // }
 
   .header-text {
-    padding: 10px;
+    padding: 10px !important;
+    left: 20% !important;
+    background-color: rgba(250, 250, 250, .7);
   }
 }
+
+  .testw3 {
+      padding-left:34% !important;
+  }
+  
+    .heart {
+      padding-bottom:-15px !important;
+  }
 
 
 .bgimg2 {background-image: url("/static/images/IMG_8401.jpg")}
@@ -44,12 +71,17 @@ p {line-height: 2}
 }
 
 .bg-sage {
-  background-color: #e9cdf7!important;
-  //color: #c2ab17 !important;
+  background-color: #12e1dd !important;
+  //color: #c2ab17 !important;  #e9cdf7
+}
+
+.bg-purple {
+  background-color: #e9cdf7 !important;
+  //color: #c2ab17 !important;  
 }
 
 .bg-smoky-green {
-  background-color: #e9cdf7 !important;
+  background-color: #12e1dd !important;
   //color: #c2ab17 !important;
 }
 
@@ -97,9 +129,14 @@ p {line-height: 2}
 }
 
 .header-text {
-  background-color: rgba(250, 250, 250, .4);
+  background-color: rgba(250, 250, 250, .7);
   padding: 0px 5px 0px 5px;
+ // left: 15% !important;
+ // transform:translate(0%,-50%) !important;
+ // -ms-transform:translate(-0%,-50%) !important;
 }
+//.w3-display-middle{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%)}
+//.w3-display-left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%)}
 
 .date-text {
   font-size: 28px;
