@@ -139,6 +139,10 @@ p {line-height: 2}
   font-family: "Josefin Sans" !important;
 }
 
+li {
+    margin-bottom: 10px !important;
+}
+
 
 .standard-text-wide {
   padding-right: 10% !important;
