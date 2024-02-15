@@ -20,7 +20,7 @@ p {line-height: 2}
 }
 @media screen and (max-width: 950px) {
   .bgimg {
-    background-image: url("/static/images/DSC_9551.jpg");
+    background-image: url("/static/images/DSC_9551_compress.jpg");
     opacity: .75;
   }
   
