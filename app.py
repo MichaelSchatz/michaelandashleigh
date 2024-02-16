@@ -14,10 +14,10 @@ app._static_folder = "static"
 app.secret_key = os.environ.get('FLASK_SECRET_KEY')
 Mobility(app)
 
-# SHEET_SERVICE = SheetService(
-#     json.loads(os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')),
-#     os.environ.get('GOOGLE_SPREADSHEET_ID'))
-# PASSPHRASE = os.environ.get('WEDDING_PASSPHRASE')
+SHEET_SERVICE = SheetService(
+    json.loads(os.environ.get('GOOGLE_APPLICATION_CREDENTIALS')),
+    os.environ.get('GOOGLE_SPREADSHEET_ID'))
+PASSPHRASE = os.environ.get('WEDDING_PASSPHRASE')
 
 @app.before_request
 def before_request():
@@ -80,9 +80,9 @@ def ourstory():
 def registry():
     return render_template("registry.html")
 
-# @app.route("/rsvp2")
-# def rsvp2():
-#     return render_template("rsvp2.html")
+@app.route("/rsvp2")
+def rsvp2():
+    return render_template("rsvp2.html")
 
 @app.route("/rsvp", methods=['GET', 'POST'])
 def rsvp():

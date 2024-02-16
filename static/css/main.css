@@ -177,7 +177,7 @@ li {
 }
 
 .hr-line {
-  border-top-color: aqua !important;
+  border-top-color: transparent !important;
   border-width: 3px !important;
   width: 50% !important;
   margin: auto;
