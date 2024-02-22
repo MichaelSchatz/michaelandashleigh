@@ -211,6 +211,10 @@ li {
   height: 100% !important;
 }
 
+strong {
+    font-weight: bold !important;
+}
+
 .hotel-name {
   font-size: 20px;
   margin-bottom: 0px;
