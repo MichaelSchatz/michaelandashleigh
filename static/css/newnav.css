@@ -53,6 +53,15 @@ body {
   border: none;
 }
 
+@media screen and (max-width: 950px) {
+ 
+    .openbtn {
+      font-size: 25px !important;
+    }
+}
+
+  
+
 .openbtn:hover {
   background-color: #444;
 }
