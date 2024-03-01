@@ -15,9 +15,10 @@
 
 <div class="box">
   {% include 'newnav.html' %}
-  <div class="w3-container bg-smoky-green first-section faq-main rsvpformdiv" id="us">
+  <div class="w3-container bgimg_steal first-section faq-main rsvpformdiv" id="us">
+    <div class="w3-content standard-text-wide bg-smoky-green">
         <h1 class="w3-wide">CAN YOU COME?</h1>
-        <p id="rsvpformtop">We really hope you can make it.</p>
+        <p id="rsvpformtop standard-text-wide">We really hope you can make it.</p>
         {% if session['reservation'] is  not defined %}
             <p>Enter one name as written on invitation. If you need to update your RSVP you can just resubmit the form</p>
             {% if session['not_found'] %}
@@ -46,7 +47,7 @@
                     <input type="radio" id="attendno" name="attending_{{i}}" value="No" required>
                     <label for="attendno">No</label><br>
 
-                    <div id="ifattending_{{i}}" hidden>
+                <!--     <div id="ifattending_{{i}}" hidden>
                         <p>Food preference for {{attendee['name']}}</p>
                         <input type="radio" id="food1" name="food_pref_{{i}}" value="Fish">
                         <label for="food1">Salmon</label><br><br>
@@ -62,13 +63,16 @@
                             <input type="radio" id="attendno" name="rehearsal_{{i}}" value="No">
                             <label for="attendno">No</label><br>
                         {% endif %}
-                    </div>
+                    </div> 
+                    --->
                     <hr>
                 {% endfor %}
                 <input type="submit" id="rsvpsubmitbutton">
                 <br>
             </form>
         {% endif %}
+        <br>
+    </div>
   </div>
 </div>
 </body>
