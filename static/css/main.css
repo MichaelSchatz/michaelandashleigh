@@ -152,6 +152,15 @@ li {
   font-family: "Josefin Sans" !important;
 }
 
+.standard-text-left {
+  padding-right: 5% !important;
+  padding-left: 5% !important;
+
+  text-align: left;
+  font-family: "Josefin Sans" !important;
+}
+
+
 .left-text {
   padding-left: 24px;
   text-align: left;
@@ -160,6 +169,11 @@ li {
 
 .center-text {
   text-align: center;
+}
+
+.center_left {
+    padding-left:25%;
+     margin-bottom: 5px !important;
 }
 
 .first-section {
