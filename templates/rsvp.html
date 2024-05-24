@@ -55,7 +55,7 @@
                         <label for="food2">Beef Short Rib</label><br><br>
                         <input type="radio" id="food3" name="food_pref_{{i}}" value="Veg">
                         <label for="food3">Vegan / Vegatarian / Gluten Free</label><br>
-
+       --->
                         {% if attendee['rehearsal'] == 'TRUE' %}
                             <p>Will {{attendee['name']}} be attending the rehearsal dinner? (attire: dressy casual)</p>
                             <input type="radio" id="attendyes" name="rehearsal_{{i}}" value="Yes">
@@ -63,14 +63,14 @@
                             <input type="radio" id="attendno" name="rehearsal_{{i}}" value="No">
                             <label for="attendno">No</label><br>
                         {% endif %}
-                    </div> 
-                    --->
                     <hr>
                 {% endfor %}
                 <input type="submit" id="rsvpsubmitbutton">
                 <br>
+                <br>
             </form>
         {% endif %}
+            </div> 
         <br>
     </div>
   </div>
