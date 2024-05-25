@@ -72,6 +72,10 @@ def faq():
     return render_template("faq.html")
 
 
+@app.route("/dresscode")
+def dresscode():
+    return render_template("dresscode.html")
+
 @app.route("/ourstory")
 def ourstory():
     return render_template("ourstory.html")
